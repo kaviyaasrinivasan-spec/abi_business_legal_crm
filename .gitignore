@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+
+# Data files (lead / client data - do not commit)
+*.xls
+*.xlsx
+*.csv
+server/latest_upload.json
+server/uploads/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
